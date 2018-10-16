@@ -1,0 +1,105 @@
+header{
+     height: 150px;
+     width: 80%;
+     margin-top:10px;
+     margin-left: 200px;
+     margin-bottom: 10px;
+     background-color: black;
+     opacity: 0.8;
+     filter: alpha (Opacity=70);    
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../Photo/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Logo{
+     height: 100px;
+     width: 170px;
+     margin-left: 1350px;
+     background-color: gray;
+     position: relative;
+      top: 50px;
+
+}
+
+.lText{
+     height: 30px;
+     width: 185px;
+     margin-left: 665px;
+     text-align: center;
+     text-transform: uppercase;
+     font-family: 'Mali', cursive;
+     color: #00bfff;
+     background-color: black; 
+     position: relative;
+     bottom: 75px;
+}
+
+.oBlock {
+     height: 1300px;
+     width: 1300px;
+     background-color:#4c5866;
+     margin-left: 305px;
+     margin-bottom: 150px;
+     margin-top: 25px;
+     opacity: 0.8;
+     filter: alpha (Opacity=70); 
+ }
+
+ .firBlock{
+     height: 1280px;
+     width: 300px;
+     margin-left: 25px;
+     background-color: #23282b;   
+     position: relative;
+      top: 10px;
+}
+
+.podBlock1{
+  height: 300px;
+  width: 150px;
+  color: #00bfff;
+}
+
+.ppBlock1{
+  position: relative;
+    bottom: 50px;
+    right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.secBlock{
+  height: 1280px;
+  width: 920px;
+  margin-right: 25px;
+  background-color: #23282b;   
+  position: relative;
+   left: 360px;
+   bottom: 1292px; 
+}
+
+.ptBlock1{
+  height: 480px;
+  width: 890px;
+  position: relative;
+    left: 15px;
+    top: 10px;
+  background-color: black; 
+  color:#00bfff;  
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.st_for_txt {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Permanent Marker', cursive ;
+}
