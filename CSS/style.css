@@ -40,6 +40,15 @@ header{
   width: 285px;
 }
 
+.menuBlock{
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+    bottom: 100px;
+    top: auto;
+}
+
 body{
   background-image: url(../Photo/fon.jpg);
   background-repeat: no-repeat;
