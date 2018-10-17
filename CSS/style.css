@@ -6,15 +6,7 @@ header{
      margin-bottom: 10px;
      background-color: black;
      opacity: 0.8;
-     filter: alpha (Opacity=70);    
-}
-
-body{
-  margin: 0;
-  padding: 0;
-  background-image: url(../Photo/fon.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+     filter: alpha (Opacity=70); 
 }
 
 .Logo{
@@ -37,7 +29,21 @@ body{
      color: #00bfff;
      background-color: black; 
      position: relative;
-     bottom: 75px;
+      bottom: 75px;
+}
+
+.mBlock{
+  background: #555 url('../Photo/menu.jpg') repeat left top;
+  left: -285px; 
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+body{
+  background-image: url(../Photo/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .oBlock {
@@ -97,6 +103,8 @@ body{
   text-transform: uppercase;
   font-family: 'Permanent Marker', cursive;
 }
+
+
 
 .st_for_txt {
     text-align: center;
