@@ -32,9 +32,9 @@ header{
       bottom: 75px;
 }
 
-.mBlock{
-  background: #555 url('../Photo/menu.jpg') repeat left top;
-  left: -285px; 
+.menu{
+   background: #555 url('../Photo/menu.jpg') repeat left top;
+  left: -285px;
   height: 100%;
   position: fixed;
   width: 285px;

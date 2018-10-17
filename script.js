@@ -1,9 +1,9 @@
 
 var main = function() { 
-    $('.menuBlock').click(function() { 
+    $('.icon-menu').click(function() { 
         $('.menu').animate({ 
             left: '0px'}, 200); 
-        $('body').animate({ 
+        $('menuBlock').animate({ 
             left: '285px' 
         }, 200);
 });
@@ -11,7 +11,7 @@ var main = function() {
     $('.icon-close').click(function() { 
         $('.menu').animate({ 
             left: '-285px' }, 200);  
-    $('body').animate({
+    $('menuBlock').animate({
             left: '0px' 
         }, 200); 
     });
