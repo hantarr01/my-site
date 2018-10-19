@@ -1,9 +1,10 @@
 
+
 header{
      height: 150px;
-     width: 80%;
+     width: 75%;
      margin-top:10px;
-     margin-left: 200px;
+     margin-left: 250px;
      margin-bottom: 10px;
      background-color: black;
      opacity: 0.8;
@@ -16,7 +17,7 @@ header{
      background-color: gray;
      position: relative;
       top: 50px;
-       left: 1300px;
+       left: 1200px;
 
 }
 
@@ -33,6 +34,13 @@ header{
       bottom: 75px;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
+
+$mainFont: 'Montserrat', sans-serif;
+$primaryColor: #4A90E2;
+$secondColor:#0087AC;
+
+
 body{
     background-image: url("../Photo/fon.jpg");
    background-repeat: no-repeat;
@@ -40,15 +48,83 @@ body{
 }
 
 
+.mBlock{
+     height:600px;
+     width:200px;
+     position: relative;
+     background-color:#4c5866;
+    left: 30px;
+     opacity: 0.8;
+     filter: alpha (Opacity=70); 
+}
+
+
+
+
+.button-parent{
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  
+  &--inner{
+    padding: 4em 1em;
+  }
+  
+}
+
+a{
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  color: #4A4A4A;
+  display: inline-block;
+
+}
+
+.button{
+  padding: 1em 3em;
+  border: 3px solid $primaryColor;
+  transition: all 300ms ease;
+  box-shadow: 0px 4px 10px 2px rgba(black, 0.2);
+  
+ 
+  &:before{
+    position: absolute;
+    content: '';
+    width: 0%; height: 100%;
+    background: $primaryColor;
+    top: 0; left: 50%;
+    z-index: -1;
+    transition: all 0ms ease;
+  }
+  
+  &:hover{
+    color: white; 
+    box-shadow:none;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 100%; height: 100%;
+      background: $primaryColor;
+      top: 0; left: 0%;
+      z-index: -1;
+      transition: all 300ms ease;
+    }
+  }
+}
+
+
+
+
 .oBlock {
      height: 1300px;
      width: 1300px;
      background-color:#4c5866;
-     margin-left: 305px;
-     margin-bottom: 150px;
-     margin-top: 25px;
      opacity: 0.8;
      filter: alpha (Opacity=70); 
+     position: relative;
+     left: 300px;
+    bottom: 600px;
  }
 
  .firBlock{
