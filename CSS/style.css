@@ -14,40 +14,36 @@ header{
      height: 100px;
      width: 170px;
      position: relative;
-      /*top: 50px;*/
-       left: 1250px;
+       left: 190px;
 
 }
 
 .lText{
      height: 30px;
      width: 185px;
-     margin-left: 1095px;
+     margin-left: 195px;
      text-align: center;
      text-transform: uppercase;
      font-family: 'Mali', cursive;
      color: white;
      position: relative;
-      bottom: 85px;
+     right: 175px;
+      bottom: 105px;
 }
 
 
 .butBlock{
-  height: 360px;
-    width: 180px;
-  position: fixed;
-    left: 170px;
-    top: 50px;
-    width: 80px;
-    padding-left: 10px;
-    border-top-width: 10px;
-    padding-top: 10px;
+    width: 435px;
+    height: 40px;
+    position: relative;
+    bottom: 45px;
+    left: 600px;
      opacity: 0.85;
 }
 
 
 a.button {
-  height: 25px;
+  height: 20px;
   width: 40px;
   position: relative;
   display: inline-block;
@@ -78,23 +74,12 @@ a.button:active {
    0 1px 1px rgba(255,255,255,.1);
 }
 
-
 body{
     background-image: url("../Photo/fon.jpg");
    background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-
-.mBlock{
-     height:600px;
-     width:200px;
-     position: relative;
-     background-color:#4c5866;
-    left: 30px;
-     opacity: 0.8;
-     filter: alpha (Opacity=70); 
-}
 
 
 .oBlock {
@@ -104,8 +89,8 @@ body{
      opacity: 0.8;
      filter: alpha (Opacity=70); 
      position: relative;
-     left: 300px;
-   
+     left: 300px;   
+     top: 5px;
  }
 
  .firBlock{
