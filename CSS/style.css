@@ -13,33 +13,30 @@ header{
 .Logo{
      height: 100px;
      width: 170px;
-     background-color: gray;
      position: relative;
-      top: 50px;
-       left: 1200px;
+      /*top: 50px;*/
+       left: 1250px;
 
 }
 
 .lText{
      height: 30px;
      width: 185px;
-     margin-left: 665px;
+     margin-left: 1095px;
      text-align: center;
      text-transform: uppercase;
      font-family: 'Mali', cursive;
-     color: #00bfff;
-     background-color: black; 
+     color: white;
      position: relative;
-      bottom: 75px;
+      bottom: 85px;
 }
 
 
 .butBlock{
   height: 360px;
-  width: 75px;
-  background-color: #23282b; 
+    width: 180px;
   position: fixed;
-    left: 50px;
+    left: 170px;
     top: 50px;
     width: 80px;
     padding-left: 10px;
