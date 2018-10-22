@@ -1,5 +1,4 @@
 
-
 header{
      height: 150px;
      width: 75%;
@@ -34,11 +33,53 @@ header{
       bottom: 75px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
 
-$mainFont: 'Montserrat', sans-serif;
-$primaryColor: #4A90E2;
-$secondColor:#0087AC;
+.butBlock{
+  height: 360px;
+  width: 75px;
+  background-color: #23282b; 
+  position: fixed;
+    left: 50px;
+    top: 50px;
+    width: 80px;
+    padding-left: 10px;
+    border-top-width: 10px;
+    padding-top: 10px;
+     opacity: 0.85;
+}
+
+
+a.button {
+  height: 25px;
+  width: 40px;
+  position: relative;
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 700;
+  color:  #00bfff;
+  text-decoration: none;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  padding: .6em 1em;
+  outline: none;
+  border-radius: 3px;
+  background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+  box-shadow:
+   0 1px rgba(255,255,255,.2) inset,
+   0 3px 5px rgba(0,1,6,.5),
+   0 0 1px 1px rgba(0,1,6,.2);
+  transition: .2s ease-in-out;
+}
+a.button:hover:not(:active) {
+  background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+}
+a.button:active {
+  top: 1px;
+  background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
 
 
 body{
@@ -59,63 +100,6 @@ body{
 }
 
 
-
-
-.button-parent{
-  max-width: 1100px;
-  margin: auto;
-  text-align: center;
-  
-  &--inner{
-    padding: 4em 1em;
-  }
-  
-}
-
-a{
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  color: #4A4A4A;
-  display: inline-block;
-
-}
-
-.button{
-  padding: 1em 3em;
-  border: 3px solid $primaryColor;
-  transition: all 300ms ease;
-  box-shadow: 0px 4px 10px 2px rgba(black, 0.2);
-  
- 
-  &:before{
-    position: absolute;
-    content: '';
-    width: 0%; height: 100%;
-    background: $primaryColor;
-    top: 0; left: 50%;
-    z-index: -1;
-    transition: all 0ms ease;
-  }
-  
-  &:hover{
-    color: white; 
-    box-shadow:none;
-    &:before{
-      position: absolute;
-      content: '';
-      width: 100%; height: 100%;
-      background: $primaryColor;
-      top: 0; left: 0%;
-      z-index: -1;
-      transition: all 300ms ease;
-    }
-  }
-}
-
-
-
-
 .oBlock {
      height: 1300px;
      width: 1300px;
@@ -124,7 +108,7 @@ a{
      filter: alpha (Opacity=70); 
      position: relative;
      left: 300px;
-    bottom: 600px;
+   
  }
 
  .firBlock{
