@@ -42,8 +42,10 @@ header{
 }
 
 a.button {
+   text-transform: uppercase;
+   font-family: 'Mali', cursive;
   height: 20px;
-  width: 40px;
+  width: 50px;
   position: relative;
   display: inline-block;
   font-size: 90%;
