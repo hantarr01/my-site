@@ -36,11 +36,10 @@ header{
     width: 435px;
     height: 40px;
     position: relative;
-    bottom: 45px;
-    left: 600px;
      opacity: 0.85;
+    bottom: 90px;
+    left: 450px;
 }
-
 
 a.button {
   height: 20px;
@@ -72,6 +71,15 @@ a.button:active {
    0 0 1px rgba(0,0,0,.5) inset,
    0 2px 3px rgba(0,0,0,.5) inset,
    0 1px 1px rgba(255,255,255,.1);
+}
+
+.slider{
+  width: 190px;
+  height: 140px;
+  border: 1px solid white;
+  margin: 0 auto;
+  position: relative;
+
 }
 
 body{
